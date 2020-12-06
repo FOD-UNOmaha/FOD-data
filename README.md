@@ -7,9 +7,6 @@ This foreign object debris (FOD) dataset is an image dataset with bounding box a
 ## Samples Images with Bounding Boxes
 ![alt text](Examples/ExampleImages.png)
 
-# Download Instructions
-This dataset is too large to be stored directly on github. The dataset is about ~3.8 gigabytes, so google will give you a warning when attempting to install the '.zip file'. Therefore, the dataset is stored on google drive, and can be downloaded [here](https://docs.google.com/uc?export=download&id=1wkw1sINcNPRGzXg_vw212Hsi4INB7UrN).
-
 # Dataset Specifications
 The FOD dataset consists of thousands of images (currently 12,971 images) of common FOD objects and types of material with a typical runway or taxiway background. All images are stored with a resolution of 400x400. Soon, however, we will release our resizing tool tailored to this dataset to another github repository. This tool can resize the images and annotations of this dataset to any required resolution. During initial dataset preperation, images were stripped, frame by frame, from videos taken of object using our expansion tool. These videos were recorded in a local airport to ensure accuracy. Once the frames from these videos were stored indivudally as '.png' files, the videos were manually annotated using an open-source tool aptly named Computer Vision Annotation Tool (CVAT).
 
@@ -34,6 +31,9 @@ Each individual folder is a seperate annotated video. Within each of these folde
 
 ## Expansion Directions
 This dataset was designed to be easily expanded (as needed) using a command-line tool developed specifically for this dataset. This tool and step-by-step directions will be released soon, alongside a detailed paper explaining this dataset and future theories for it's use. Instructions will be clearly explained in this section, and the open-source expansion tool will be located in a seperate github repository.
+
+# Download Instructions
+This dataset is too large to be stored directly on github. The dataset is about ~3.8 gigabytes, so google will give you a warning when attempting to install the '.zip file'. Therefore, the dataset is stored on google drive, and can be downloaded [here](https://docs.google.com/uc?export=download&id=1wkw1sINcNPRGzXg_vw212Hsi4INB7UrN).
 
 # Links
 CVAT Link - https://github.com/openvinotoolkit/cvat
