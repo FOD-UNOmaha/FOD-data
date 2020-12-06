@@ -2,13 +2,13 @@
 A dataset of foreign object debris (FOD) designed for computer vision applications.
 
 # Foreign Object Debris Dataset Overview
-This foreign object debris (FOD) dataset is an image dataset with bounding box annotations. The intent is to utilize a model trained by this dataset to locate and categorize FOD in the airport environment. When FOD is allowed to remain in airport premises it can pierce vital components or become injested by jet engines, which can cause injury to nearby personages and/or exhorbitant repair costs. The initial goal is to utilize this model in stationary cameras or unmanned aerial vehicles (UAVs) to detect FOD and alert airport staff.
+This foreign object debris (FOD) dataset is an image dataset with bounding box annotations. The intent is to utilize a model trained by this dataset to locate and categorize FOD in the airport environment. When FOD is allowed to remain in airport premises it can pierce vital components or become injested by jet engines, which can cause exhorbitant repair costs and/or injury to nearby personages. The initial goal is to utilize this model in stationary cameras or unmanned aerial vehicles (UAVs) to detect FOD and alert airport staff.
 
 ## Samples Images with Bounding Boxes
 ![alt text](ExampleImages.png)
 
 # Dataset Specifications
-The FOD dataset consists of thousands of images (currently 12,971 images) of common FOD objects and types of material with a typical runway or taxiway background. All images are stored with a resolution of 400x400. Soon, however, we will release our resizing tool tailored to this dataset to a github repository. This tool can resize the images and annotations of this dataset to any required resolution. During initial dataset preperation, images were stripped, frame by frame, from videos taken of object using our expansion tool. These videos were recorded in a local airport to ensure accuracy. Once the frames from these videos were stored indivudally as '.png' files, the videos were manually annotated using an open-source tool aptly named Computer Vision Annotation Tool (CVAT).
+The FOD dataset consists of thousands of images (currently 12,971 images) of common FOD objects and types of material with a typical runway or taxiway background. All images are stored with a resolution of 400x400. Soon, however, we will release our resizing tool tailored to this dataset to another github repository. This tool can resize the images and annotations of this dataset to any required resolution. During initial dataset preperation, images were stripped, frame by frame, from videos taken of object using our expansion tool. These videos were recorded in a local airport to ensure accuracy. Once the frames from these videos were stored indivudally as '.png' files, the videos were manually annotated using an open-source tool aptly named Computer Vision Annotation Tool (CVAT).
 
 ## Dataset Counts
 | Object | Image Count |
