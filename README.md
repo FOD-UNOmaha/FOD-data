@@ -14,16 +14,17 @@ A dataset of foreign object debris (FOD) designed for computer vision applicatio
 This foreign object debris (FOD) dataset is an image dataset with bounding box annotations. The intent is to utilize a model trained by this dataset to locate and categorize FOD in the airport environment. When FOD is allowed to remain in airport premises it can pierce vital components or become injested by jet engines, which can cause exhorbitant repair costs and/or injury to nearby personages. The initial goal is to utilize this model in stationary cameras or unmanned aerial vehicles (UAVs) to detect FOD and alert airport staff.
 
 ## <a name="sample_images"/>Samples Images with Bounding Boxes
+
 <table>
+  <tr>
+  <td>Hose</td>
+  <td>Pliers</td>
+  <td>Metal Sheet</td>
+ </tr>
  <tr>
   <td><img alt="Hose" src="Examples/Picture1.png"></td>
   <td><img alt="Pliers" src="Examples/Picture2.png"></td>
   <td><img alt="Metal Sheet" src="Examples/Picture3.png"></td>
- </tr>
- <tr>
-  <td>Hose</td>
-  <td>Pliers</td>
-  <td>Metal Sheet</td>
  </tr>
 </table>
 
