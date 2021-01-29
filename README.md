@@ -9,13 +9,25 @@ A dataset of foreign object debris (FOD) designed for computer vision applicatio
   * [Expansion Directions](#expansion_directions)
 * [Download Instructions](#download_instructions)
 * [Coming Soon](#coming_soon)
-  
 
 # <a name="overview"/>Foreign Object Debris Dataset Overview
 This foreign object debris (FOD) dataset is an image dataset with bounding box annotations. The intent is to utilize a model trained by this dataset to locate and categorize FOD in the airport environment. When FOD is allowed to remain in airport premises it can pierce vital components or become injested by jet engines, which can cause exhorbitant repair costs and/or injury to nearby personages. The initial goal is to utilize this model in stationary cameras or unmanned aerial vehicles (UAVs) to detect FOD and alert airport staff.
 
 ## <a name="sample_images"/>Samples Images with Bounding Boxes
-![alt text](Examples/ExampleImages.png)
+<table>
+ <tr>
+  <td><img alt="Hose" src="Examples/Picture1.png"></td>
+  <td><img alt="Pliers" src="Examples/Picture2.png"></td>
+  <td><img alt="Metal Sheet" src="Examples/Picture3.png"></td>
+ </tr>
+ <tr>
+  <td>Hose</td>
+  <td>Pliers</td>
+  <td>Metal Sheet</td>
+ </tr>
+</table>
+
+Please note that the borders are not included in the original images, but provided to clarify picture boundries.
 
 # <a name="specifications"/>Dataset Specifications
 The FOD dataset consists of thousands of images (currently 12,971 images) of common FOD objects and types of material with a typical runway or taxiway background. All images are stored with a resolution of 400x400 pixels. Soon, however, we will release our resizing tool tailored to this dataset to another github repository. This tool can resize the images and annotations of this dataset to any required resolution. During initial dataset preperation, images were stripped, frame by frame, from videos taken of object using our expansion tool. These videos were recorded in a local airport to ensure accuracy. Once the frames from these videos were stored indivudally as '.png' files, the videos were manually annotated using an open-source tool aptly named Computer Vision Annotation Tool (CVAT).
