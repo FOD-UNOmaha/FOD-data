@@ -52,9 +52,9 @@ The FOD dataset consists of thousands of images (currently 13580 images) of comm
 This dataset is designed to be easily expanded (as needed) using a command-line tool developed specifically for this dataset. This tool and step-by-step directions will be released soon, alongside a detailed paper explaining this dataset and future theories for it's use. Instructions will be clearly explained in this section, and the open-source expansion tool will be located in a seperate github repository.
 
 # <a name="download_instructions"/>Download Instructions
-Download versions of our dataset here:
-[Dataset matching Pascal VOC format (150 mb) 300x300 image size](https://drive.google.com/uc?id=1x6kc8gLNE-2dAKODBIVSQEAoXw8RmTSk&export=download)
-[Dataset in original format (3.8 gb) - 400x400 image size](https://docs.google.com/uc?export=download&id=1wkw1sINcNPRGzXg_vw212Hsi4INB7UrN).
+Download versions of our dataset here:  
+[Dataset matching Pascal VOC format (150 mb) 300x300 image size](https://drive.google.com/uc?id=1x6kc8gLNE-2dAKODBIVSQEAoXw8RmTSk&export=download).  
+[Dataset in original format (3.8 gb) - 400x400 image size](https://docs.google.com/uc?export=download&id=1wkw1sINcNPRGzXg_vw212Hsi4INB7UrN).  
 
 # <a name="coming_soon"/>Coming Soon
 - expansion directions
