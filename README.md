@@ -1,5 +1,5 @@
-# <a name="overview"/>Foreign Object Debris Dataset Overview
-The Foreign Object Debris (FOD) in Airports (FOD-A) dataset consists of images of common FOD with a runway or taxiway background. While the main annotation style consists of bounding boxes, FOD-A also includes seperate light-level and weather categorization annotations. FOD-A is designed to be easily expanded using a command-line tool developed alongside the dataset. The instructions for this process are contained in a pdf file included in this repository.
+# <a name="overview"/>Foreign Object Debris in Airports (FOD-A) Dataset Overview
+The FOD-A dataset consists of images of common Foreign Object Debris (FOD) with a runway or taxiway background. While the main annotation style consists of bounding boxes, FOD-A also includes seperate light-level and weather categorization annotations. FOD-A is designed to be easily expanded using a command-line tool developed alongside the dataset. The instructions for this process are contained in a pdf file included in this repository.
 
 <img alt="Examples" src="Examples/manyEx.png">
 
