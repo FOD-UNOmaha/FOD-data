@@ -30,18 +30,3 @@ The FOD-A dataset consists of images of common Foreign Object Debris (FOD) with 
 If you find this dataset beneficial to your work, please cite the paper: 
 
 Travis Munyer, Daniel Brinkman, Chenyu Huang, and Xin Zhong. 2021. Integrative Use of Computer Vision and Unmanned Aircraft Technologies in Public Inspection: Foreign Object Debris Image Collection. DG.O2021: The 22nd Annual International Conference on Digital Government Research. Association for Computing Machinery, New York, NY, USA, 437–443. DOI:https://doi.org/10.1145/3463677.3463743
-
-Bibtex format: 
-
-@inbook{10.1145/3463677.3463743,
-author = {Munyer, Travis and Brinkman, Daniel and Huang, Chenyu and Zhong, Xin},
-title = {Integrative Use of Computer Vision and Unmanned Aircraft Technologies in Public Inspection: Foreign Object Debris Image Collection},
-year = {2021},
-isbn = {9781450384926},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3463677.3463743},
-booktitle = {DG.O2021: The 22nd Annual International Conference on Digital Government Research},
-pages = {437–443},
-numpages = {7}
-}
