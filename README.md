@@ -1,62 +1,32 @@
-# FOD-data
-A dataset of foreign object debris (FOD) designed for computer vision applications.
+# <a name="overview"/>Foreign Object Debris in Airports (FOD-A) Dataset Overview
+The FOD-A dataset consists of images of common Foreign Object Debris (FOD) with a runway or taxiway background. While the main annotation style consists of bounding boxes, FOD-A also includes seperate light-level and weather categorization annotations. FOD-A is designed to be easily expanded using a command-line tool developed alongside the dataset. The instructions for this process are contained in a pdf file included in this repository.
 
-* [Dataset Overview](#overview)
-  * [Sample Images](#sample_images)
-* [Dataset Specifications](#specifications)
-  * [Dataset Counts](#dataset_counts)
-  * [Expansion Directions](#expansion_directions)
-* [Download Instructions](#download_instructions)
-* [Coming Soon](#coming_soon)
+<p align="center">
+  <img alt="AnnotationExamples" src="Examples/AnnotationExamples.png">
+</p>
 
-# <a name="overview"/>Foreign Object Debris Dataset Overview
-This foreign object debris (FOD) dataset is an image dataset with bounding box annotations.
+<p align="center">
+  <img alt="Examples" src="Examples/manyEx.png">
+</p>
+  
+<p align="center">
+  <img alt="Instances" src="Examples/AnnotationInstancesV2.1.png">
+</p>
 
-## <a name="sample_images"/>Samples Images with Bounding Boxes
+# <a name="download_instructions"/>Download
+### Most Current Version Download
+[FOD-A Version 2.1 original format (8.3 gb) 400x400 image size](https://docs.google.com/uc?export=download&id=1qUpUu4fc90TrsWHLM0pCfIaFvHoNj8Ql).  
+[FOD-A Version 2.1 Pascal VOC format (412 mb) 300x300 image size](https://docs.google.com/uc?export=download&id=1zryvMCz51g1x9ynuRtJEh7iYF79bBVLz).  
 
-<table>
-  <tr>
-  <td>Hose</td>
-  <td>Pliers</td>
-  <td>Metal Sheet</td>
- </tr>
- <tr>
-  <td><img alt="Hose" src="Examples/Picture1.png"></td>
-  <td><img alt="Pliers" src="Examples/Picture2.png"></td>
-  <td><img alt="Metal Sheet" src="Examples/Picture3.png"></td>
- </tr>
-</table>
+### Previous FOD-A Version Download
 
-Please note that the borders are not included in the original images, but provided to clarify picture boundries.
+[FOD-A Version 2.0 original format (9.1 gb) 400x400 image size](https://docs.google.com/uc?export=download&id=1AMLDjMlobDU5etls3bmWzBeEk_NTyK0C).  
+[FOD-A Version 2.0 Pascal VOC format (434 mb) 300x300 image size](https://docs.google.com/uc?export=download&id=1q4yEcEEUuRk9kdEMOra-ZEFn6TJ8gB7h).  
 
-# <a name="specifications"/>Dataset Specifications
-The FOD dataset consists of thousands of images (currently 13580 images) of common FOD objects and types of material with a typical runway or taxiway background. This tool can resize the images and annotations of this dataset to any required resolution. During initial dataset preperation, images were stripped, frame by frame, from videos taken of object using our expansion tool. These videos were recorded in a local airport to ensure accuracy. Once the frames from these videos were stored indivudally as '.png' files, the videos were manually annotated using an open-source tool aptly named Computer Vision Annotation Tool (CVAT).
+[FOD-A Version 1.0 original format (3.8 gb) - 400x400 image size](https://docs.google.com/uc?export=download&id=1wkw1sINcNPRGzXg_vw212Hsi4INB7UrN).  
+[FOD-A Version 1.0 Pascal VOC format (146 mb) 300x300 image size](https://docs.google.com/uc?export=download&id=1x6kc8gLNE-2dAKODBIVSQEAoXw8RmTSk).  
 
-## <a name="dataset_counts"/>Dataset Counts
-| Object | Instances |
-|--------|-------|
-| Bolt  | 3118  |
-| Nut | 520 |
-| MetalSheet | 394 |
-| AdjustableClamp | 544 |
-| Washer | 1797 |
-| LuggageTag | 1616 |
-| Plier | 2099 |
-| Nail | 1005 |
-| Hose | 294 |
-| BoltNutSet | 514 |
-| Wrench | 2359 |
-| Total | 14260 |
+# <a name="citation"/>Citation
+If you find this dataset beneficial to your work, please cite the paper: 
 
-## <a name="expansion_directions"/>Expansion Directions
-This dataset is designed to be easily expanded (as needed) using a command-line tool developed specifically for this dataset. This tool and step-by-step directions will be released soon, alongside a detailed paper explaining this dataset and future theories for it's use. Instructions will be clearly explained in this section, and the open-source expansion tool will be located in a seperate github repository.
-
-# <a name="download_instructions"/>Download Instructions
-Download versions of our dataset here:  
-[Dataset matching Pascal VOC format (150 mb) 300x300 image size](https://drive.google.com/uc?id=1x6kc8gLNE-2dAKODBIVSQEAoXw8RmTSk&export=download).  
-[Dataset in original format (3.8 gb) - 400x400 image size](https://docs.google.com/uc?export=download&id=1wkw1sINcNPRGzXg_vw212Hsi4INB7UrN).  
-
-# <a name="coming_soon"/>Coming Soon
-- expansion directions
-- dataset resizing tool
-- dataset expansion tool
+Travis Munyer, Daniel Brinkman, Chenyu Huang, and Xin Zhong. 2021. Integrative Use of Computer Vision and Unmanned Aircraft Technologies in Public Inspection: Foreign Object Debris Image Collection. DG.O2021: The 22nd Annual International Conference on Digital Government Research. Association for Computing Machinery, New York, NY, USA, 437–443. DOI:https://doi.org/10.1145/3463677.3463743
