@@ -1,0 +1,16 @@
+### Dependencies
+
+|Name		|Version  	|
+|---------------|---------------|
+|python 	|3.8.3	  	|
+|opencv-python 	|4.4.0.44 	|
+|ffmpeg-python	|0.2.0		|
+|pathvalidate	|2.3.0		|
+|---------------|---------------|
+
+As ffmpeg-python is just a wrapper for ffmpeg, it is also required to have the original version of ffmpeg downloaded.
+
+### Notes
+
+Output location is stored as a setting for ease of use. The settings file will be created after using the tool for the first time.
+The settings can be either modified manually in the settings.json file, or they can be modified while using the tool with the -c command.
