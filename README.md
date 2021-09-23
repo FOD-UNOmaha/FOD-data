@@ -27,6 +27,6 @@ The FOD-A dataset consists of images of common Foreign Object Debris (FOD) with 
 [FOD-A Version 1.0 Pascal VOC format (146 mb) 300x300 image size](https://docs.google.com/uc?export=download&id=1x6kc8gLNE-2dAKODBIVSQEAoXw8RmTSk).  
 
 # <a name="citation"/>Citation
-If you find this dataset beneficial to your work, please cite the paper: 
+If you find this dataset beneficial to your work, consider citing the paper:
 
-Travis Munyer, Daniel Brinkman, Chenyu Huang, and Xin Zhong. 2021. Integrative Use of Computer Vision and Unmanned Aircraft Technologies in Public Inspection: Foreign Object Debris Image Collection. DG.O2021: The 22nd Annual International Conference on Digital Government Research. Association for Computing Machinery, New York, NY, USA, 437–443. DOI:https://doi.org/10.1145/3463677.3463743
+Travis Munyer, Daniel Brinkman, Chenyu Huang, and Xin Zhong. 2021. Integrative Use of Computer Vision and Unmanned Aircraft Technologies in Public Inspection: Foreign Object Debris Image Collection. arXiv: https://arxiv.org/abs/2106.00161
