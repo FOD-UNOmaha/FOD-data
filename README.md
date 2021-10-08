@@ -29,5 +29,6 @@ The FOD-A dataset consists of images of common Foreign Object Debris (FOD) with 
 # <a name="citation"/>Citation
 If you find this dataset beneficial to your work, consider citing the paper:
 
-Travis Munyer, Pei-Chi Huang, Chenyu Huang, and Xin Zhong, FOD-A: A Dataset for Foreign Object Debris in Airports. https://arxiv.org/abs/2110.03072
+Travis Munyer, Pei-Chi Huang, Chenyu Huang, and Xin Zhong. 2021. FOD-A: A Dataset for Foreign Object Debris in Airports. https://arxiv.org/abs/2110.03072  
+
 Travis Munyer, Daniel Brinkman, Chenyu Huang, and Xin Zhong. 2021. Integrative Use of Computer Vision and Unmanned Aircraft Technologies in Public Inspection: Foreign Object Debris Image Collection. arXiv: https://arxiv.org/abs/2106.00161
