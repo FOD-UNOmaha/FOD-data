@@ -17,16 +17,8 @@ The FOD-A dataset consists of images of common Foreign Object Debris (FOD) with 
 It is recommended to use the Pascal VOC format for experimentation and the original format for dataset extension. A train and validation split is provided in the Pascal VOC version. Experiments in the original paper used Pascal VOC version 2.1 (300x300 resolution) with the splits provided in that version. Tools for resizing the annotations and converting the original format to the Pascal VOC format are included in the Tools folder of this repository. 
 
 ### Most Current Version Download
-[FOD-A Version 2.1 original format (8.3 gb) 400x400 image size](https://docs.google.com/uc?export=download&id=1qUpUu4fc90TrsWHLM0pCfIaFvHoNj8Ql).  
-[FOD-A Version 2.1 Pascal VOC format (412 mb) 300x300 image size](https://docs.google.com/uc?export=download&id=1zryvMCz51g1x9ynuRtJEh7iYF79bBVLz).  
-
-### Previous FOD-A Version Download
-
-[FOD-A Version 2.0 original format (9.1 gb) 400x400 image size](https://docs.google.com/uc?export=download&id=1AMLDjMlobDU5etls3bmWzBeEk_NTyK0C).  
-[FOD-A Version 2.0 Pascal VOC format (434 mb) 300x300 image size](https://docs.google.com/uc?export=download&id=1q4yEcEEUuRk9kdEMOra-ZEFn6TJ8gB7h).  
-
-[FOD-A Version 1.0 original format (3.8 gb) - 400x400 image size](https://docs.google.com/uc?export=download&id=1wkw1sINcNPRGzXg_vw212Hsi4INB7UrN).  
-[FOD-A Version 1.0 Pascal VOC format (146 mb) 300x300 image size](https://docs.google.com/uc?export=download&id=1x6kc8gLNE-2dAKODBIVSQEAoXw8RmTSk).  
+[FOD-A Version 2.1 original format (8.3 gb) 400x400 image size](https://drive.google.com/file/d/1DkA-pGbhDZQk4jZrSPmZb54-xCrBNL4B/view?usp=sharing).  
+[FOD-A Version 2.1 Pascal VOC format (412 mb) 300x300 image size](https://drive.google.com/file/d/1xIQOgKkpxRPj_Xr_HKYtQrxue2FTPKtu/view?usp=sharing).  
 
 # <a name="citation"/>Citation
 If you find this dataset beneficial to your work, consider citing the paper:
